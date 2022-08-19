@@ -1,0 +1,171 @@
+/*Limpando formatações padrao*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #F5F5DC;
+}
+
+#area_cabecalho{
+    background: orange;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+#area_logo, #area_menu{
+    padding: 10px;
+
+}
+
+#area_principal{
+    width: 920px;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+#area_postagens{
+    width: 660px;
+    float: left;
+    
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #F8F8FF;
+    
+}
+
+#area_lateral{
+    width: 240px;
+    float: right;
+    margin-bottom: 10px;
+    
+}
+
+.conteudo_lateral{
+    background: white;
+    padding: 10px;
+}
+
+.postagem_lateral{
+    font-size: 00.8em;
+    padding: 5px 0px;
+    border-bottom: 1px solid #CCC;
+}
+
+#rodape{
+    background: orange;
+    clear: both;
+    padding: 5px;
+    
+}
+
+#area_rodape{
+    width: 920px    ;
+    margin: 10px auto;
+}
+
+#rodape_logo{
+    float: left;
+    
+}
+
+#rodape_icons{
+    float: right;
+}
+
+.icons{
+    width: 30px;
+    padding:  0px 5px;
+}
+
+#texto_rodape{
+    font-size: 0.8em;
+    
+    clear: both;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*
+    ****Formatações do menu****
+*/
+a{
+    text-decoration: none;
+}
+
+#area_cabecalho a:link, #area_cabecalho a:visited {
+    color: white;
+    padding: 10px 12px;
+
+}
+
+#area_cabecalho a:hover {
+    color: orange;
+    background: white;
+    border-radius: 10px;
+}
+
+
+/*
+    ****Formatações do links das postagem****
+*/
+a:link,  a:visited {
+    color: orange;
+    
+
+}
+
+a:hover {
+    color: orangered;
+    
+}
+
+
+
+
+/*
+    ****Formatações em geral****
+*/
+
+h1{
+    color: #3d3b3b;
+    font-size: 3em;
+}
+
+h2{
+    color: #f7b600;
+    
+}
+
+h3{
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+    
+    
+}
+
+.branco{
+    color: white;
+}
+
+.data_postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #CCC;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+p{
+    text-align: justify;
+    margin: 10px 0px;
+}
